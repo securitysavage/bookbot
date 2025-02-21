@@ -1,10 +1,11 @@
 def main():
     with open("books/frankenstein.txt") as f:
         file_contents = f.read()
-        #print(file_contents)
+        #print(file_contents) <- only needed by the insane
         word_count = wordcount(file_contents)
         char_count = charcount(file_contents)
         dict_sort = dictsort(char_count)
+        
         # report header with word count
         print(f"--- Begin report of books/frankenstein.txt ---")
         print(f"{word_count} words found in the document")
