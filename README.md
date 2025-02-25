@@ -1,1 +1,3 @@
-A boot.dev project to count words/characters in a given block of text
+# bookbot
+
+BookBot is my first [Boot.dev](https://www.boot.dev) project!
