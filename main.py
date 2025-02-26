@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from stats import wordcount
 
 def get_book_text(path):
